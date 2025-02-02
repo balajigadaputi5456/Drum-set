@@ -1,0 +1,71 @@
+body
+{
+    background-color: rgb(38,42,67);
+}
+h1
+{
+    text-align: center;
+    font-family: "Arvo", cursive;
+    font-size: 7rem;
+    color:aliceblue;
+    -webkit-text-stroke: 2px red;
+    text-shadow: 2px 2px 4px white;
+}
+.set
+{
+    margin-top: 100px;
+    display: flex;
+    gap: 30px;
+    justify-content:center;
+    align-items: center;
+
+}
+button
+{
+    border-radius: 8px;
+    height: 120px;
+    box-shadow: 10px black;
+    width: 120px;
+    font-size: 5rem;
+    text-align: center;
+}
+.w
+{
+    background-image: url(images/tom1.png);
+    object-fit: cover;
+}
+.a
+{
+    background-image: url(images/tom2.png);
+    object-fit: cover;
+}
+.s
+{
+    background-image: url(images/tom3.png);
+    object-fit: cover;
+}
+.d
+{
+    background-image: url(images/tom4.png);
+    object-fit: cover;
+}
+.j
+{
+    background-image: url(images/snare.png);
+    object-fit: cover;
+}
+.k
+{
+    background-image: url(images/crash.png);
+    object-fit: cover;
+}
+.l
+{
+    background-image: url(images/kick.png);
+    object-fit: cover;
+}
+.pressed
+{
+    box-shadow: 0 3px 4px 0 gray;
+    opacity: 0.5;
+}
